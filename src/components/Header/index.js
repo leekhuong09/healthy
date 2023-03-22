@@ -26,6 +26,7 @@ const Header = () => {
         </div>
         <div className="item">
           <img src="/icons/info.svg" alt="Info" />
+          <div className="dot">1</div>
           <div>お知らせ</div>
         </div>
         <div className="item" onClick={onChange}>

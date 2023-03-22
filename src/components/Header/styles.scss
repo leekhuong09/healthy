@@ -16,14 +16,30 @@
         height: 100%;
         cursor: pointer;
         .item {
+            position: relative;
             display: flex;
             align-items: center;
             margin-right: 24px;
             img {
                 margin-right: 8px;
             }
+            .dot {
+                background-color: var(--primary-color-500);
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                top: 15px;
+                left: 20px;
+            }
         }
+        
     }
+    
+    
     .popover {
         display: none;
         position: absolute;
