@@ -1,0 +1,43 @@
+.my-exercise-wp {
+   background-color: var(--dark-color-500);
+   width: calc(960px - 48px);
+   height: 264px;
+   margin: 56px 0;
+   padding: 16px 0;
+   color: var(--light-color);
+   .my-exercise-head{
+    display: flex;
+    .table-name {
+        width: 96px;
+        height: 36px;
+        font-weight: 400;
+    }
+    .date {
+        font-size: 22px;
+    }
+   }
+   padding: 24px;
+   .my-exercise-body {
+    overflow-y: scroll;
+    max-height: calc(100% - 32px);
+    scrollbar-color: var(--scrollbar-thumb) transparent;
+    scrollbar-width: thin;
+    padding-right: 32px;
+    .ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .item {
+            display: flex;
+            justify-content: space-between;
+            width: 416px;
+            margin: 8px 0 2px;
+            border-bottom: solid 1px var(--gray-color);
+            .kcal, .time {
+                color: var(--primary-color-300);
+            }
+            flex: 1;
+        }
+    }
+   }
+}

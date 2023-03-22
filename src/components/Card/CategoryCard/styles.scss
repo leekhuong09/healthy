@@ -1,0 +1,25 @@
+
+.category-card-wp {
+    width: 216px;
+    height: 144px;
+    background-color: var(--dark-color-600);
+    color: var(--light-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 16px;
+    .title {
+        font-size: 22px;
+        text-align: center;
+        font-weight: 400;
+        color: var(--primary-color-300);
+        padding-bottom: 10px;
+    }
+    .line {
+        height: 1px;
+        width: 56px;
+        background: rgba(255, 255, 255, 0.1);
+        margin-bottom: 8px;
+    }
+}

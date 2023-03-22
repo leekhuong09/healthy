@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''), url('/static/fonts/NotoSansJP-Light.otf') format('otf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url('/static/fonts/NotoSansJP-Regular.otf') format('otf');
+    font-display: swap;
+}

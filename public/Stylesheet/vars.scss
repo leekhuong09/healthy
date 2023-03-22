@@ -1,0 +1,35 @@
+$fontSizeSmall: 11px;
+$fontSizeNormal: 15px;
+$fontSizeMedium: 16px;
+$fontSizeLarge: 18px;
+$fontSizeXLarge: 20px;
+$fontSizeXXLarge: 25px;
+
+$lightColor: #FFFFFF;
+$grayColor: #777777;
+$darkColor600: #2E2E2E;
+$darkColor500: #414141;
+$primaryColor300: #FFCC21;
+$primaryColor400: #FF963C;
+$primaryColor500: #EA6C00;
+$primaryColor300-400: linear-gradient(180deg, #FFCC21 0%, #FF963C 100%);
+$secondaryColor300: #8FE9D0;
+
+:root {
+    --font-size-small: #{$fontSizeSmall};
+    --font-size-normal: #{$fontSizeNormal};
+    --font-size-medium: #{$fontSizeMedium};
+    --font-size-large: #{$fontSizeLarge};
+    --font-size-x-large: #{$fontSizeXLarge};
+    --font-size-xx-large: #{$fontSizeXXLarge};
+
+    --light-color: #{$lightColor};
+    --gray-color: #{$grayColor};
+    --dark-color-600: #{$darkColor600};
+    --dark-color-500: #{$darkColor500};
+    --primary-color-300: #{$primaryColor300};
+    --primary-color-400: #{$primaryColor400};
+    --primary-color-500: #{$primaryColor500};
+    --primary-color-300-400: #{$primaryColor300-400};
+    --secondary-color-300: #{$secondaryColor300};
+}

@@ -1,0 +1,45 @@
+
+.hexagon-wp {
+    width: 100px;
+    height: 55px;
+    background: linear-gradient(155.89deg, #FFCC21 8.26%, #FF963C 91.18%);
+    position: relative;
+    margin: 9px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    &:before {
+        content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: -25px;
+        left: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 25px solid #FFCC21;
+        
+    }
+    &:after {
+        content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+        bottom: -25px;
+        left: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 25px solid #FF963C;
+    }
+    .hexagon-icon{
+        margin-top: -12px;
+        position: relative;
+        z-index: 1;
+    }
+    .hexagon-text{
+        position: relative;
+        z-index: 1;
+        color: var(--light-color);
+    }
+}
